@@ -20,6 +20,6 @@ def display_balance
 end 
 
 def valid?
-  if @balance > 0 && @satus ='open'
+  self.status == "open" && self.balance > 0 ? true : false
 end 
 end
