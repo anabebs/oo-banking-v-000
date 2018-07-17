@@ -18,4 +18,8 @@ end
 def display_balance
    "Your balance is $#{self.balance}."
 end 
+
+def valid?
+  if @balance > 0 && @satus ='open'
+end 
 end
