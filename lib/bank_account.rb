@@ -12,6 +12,6 @@ class BankAccount
 end
 
 def deposit(amount)
-  self << 
+  @balance += amount 
 end 
 end
